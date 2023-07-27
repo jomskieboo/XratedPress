@@ -1,0 +1,465 @@
+.men-long-sleeve-premium-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.men-long-sleeve-premium-header {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.men-long-sleeve-premium-image {
+  width: 200px;
+  object-fit: cover;
+}
+.men-long-sleeve-premium-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.men-long-sleeve-premium-home {
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+
+.men-long-sleeve-premium-contact-us {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.men-long-sleeve-premium-shop {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.men-long-sleeve-premium-about-us {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.men-long-sleeve-premium-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.men-long-sleeve-premium-btn-group {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.men-long-sleeve-premium-burger-menu {
+  display: none;
+}
+.men-long-sleeve-premium-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.men-long-sleeve-premium-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.men-long-sleeve-premium-nav1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.men-long-sleeve-premium-container2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.men-long-sleeve-premium-image1 {
+  height: 2rem;
+}
+.men-long-sleeve-premium-menu-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.men-long-sleeve-premium-icon02 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.men-long-sleeve-premium-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.men-long-sleeve-premium-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.men-long-sleeve-premium-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.men-long-sleeve-premium-register {
+  transition: 0.3s;
+  text-decoration: none;
+}
+.men-long-sleeve-premium-register:hover {
+  color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-gray-black);
+}
+.men-long-sleeve-premium-navlink {
+  display: flex;
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.men-long-sleeve-premium-navlink:hover {
+  color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-gray-black);
+}
+.men-long-sleeve-premium-text2:hover {
+  color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-gray-black);
+}
+.men-long-sleeve-premium-container3 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.men-long-sleeve-premium-image2 {
+  width: 200px;
+  object-fit: cover;
+}
+.men-long-sleeve-premium-form {
+  width: 200px;
+  height: 100px;
+  display: flex;
+}
+.men-long-sleeve-premium-navlink1 {
+  display: flex;
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.men-long-sleeve-premium-navlink1:hover {
+  color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-gray-black);
+}
+@media(max-width: 1600px) {
+  .men-long-sleeve-premium-container {
+    background-color: #FFFDD0;
+  }
+  .men-long-sleeve-premium-header {
+    width: 100%;
+    position: relative;
+    background-color: #F3E5AB;
+  }
+  .men-long-sleeve-premium-image {
+    width: 109px;
+    height: 110px;
+    border-radius: var(--dl-radius-radius-radius4);
+    border-top-left-radius: var(--dl-radius-radius-round);
+    border-top-right-radius: var(--dl-radius-radius-round);
+    border-bottom-left-radius: var(--dl-radius-radius-round);
+    border-bottom-right-radius: var(--dl-radius-radius-round);
+  }
+  .men-long-sleeve-premium-home {
+    font-family: Poppins;
+  }
+  .men-long-sleeve-premium-contact-us {
+    font-family: Poppins;
+  }
+  .men-long-sleeve-premium-shop {
+    font-family: Poppins;
+  }
+  .men-long-sleeve-premium-about-us {
+    font-family: Poppins;
+  }
+  .men-long-sleeve-premium-text {
+    top: 73px;
+    right: 170px;
+    position: absolute;
+    font-size: 24px;
+  }
+  .men-long-sleeve-premium-register {
+    color: var(--dl-color-gray-black);
+    font-family: Poppins;
+    text-decoration: none;
+    background-color: transparent;
+  }
+  .men-long-sleeve-premium-navlink {
+    top: 190px;
+    left: 50px;
+    color: var(--dl-color-gray-black);
+    width: 94px;
+    height: 36px;
+    position: absolute;
+    align-items: center;
+    font-family: Poppins;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+    justify-content: center;
+    background-color: transparent;
+  }
+  .men-long-sleeve-premium-text1 {
+    align-self: center;
+    text-align: center;
+  }
+  .men-long-sleeve-premium-text3 {
+    text-decoration: underline;
+  }
+  .men-long-sleeve-premium-container3 {
+    top: 210px;
+    left: 25px;
+    width: 1250px;
+    height: 409px;
+    position: absolute;
+    padding-left: 0px;
+  }
+  .men-long-sleeve-premium-li {
+    top: 0px;
+    left: 0px;
+    width: 431px;
+    bottom: 0px;
+    height: 382px;
+    margin: auto;
+    position: absolute;
+    margin-bottom: 0px;
+    list-style-type: none;
+    list-style-image: none;
+    list-style-position: outside;
+  }
+  .men-long-sleeve-premium-image2 {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 322px;
+    height: 317px;
+    margin: auto;
+    position: absolute;
+    border-color: var(--dl-color-gray-black);
+    border-width: 2px;
+  }
+  .men-long-sleeve-premium-premium-cotton-adult {
+    left: 0px;
+    right: 0px;
+    width: 250px;
+    bottom: 10px;
+    height: 40px;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    font-family: Poppins;
+  }
+  .men-long-sleeve-premium-form {
+    top: 0px;
+    right: 0px;
+    width: 848px;
+    bottom: 0px;
+    height: 340px;
+    margin: auto;
+    position: absolute;
+    align-self: flex-start;
+  }
+  .men-long-sleeve-premium-name {
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    font-size: 20px;
+  }
+  .men-long-sleeve-premium-email {
+    top: 100px;
+    left: 0px;
+    position: absolute;
+    font-size: 20px;
+  }
+  .men-long-sleeve-premium-email1 {
+    top: 50px;
+    left: 0px;
+    position: absolute;
+    font-size: 20px;
+  }
+  .men-long-sleeve-premium-contact-number {
+    left: 450px;
+    position: absolute;
+    font-size: 20px;
+  }
+  .men-long-sleeve-premium-message {
+    top: 150px;
+    left: 0px;
+    position: absolute;
+    font-size: 20px;
+  }
+  .men-long-sleeve-premium-message1 {
+    top: 200px;
+    left: 0px;
+    position: absolute;
+    font-size: 20px;
+  }
+  .men-long-sleeve-premium-name1 {
+    top: 0px;
+    left: 80px;
+    width: 350px;
+    height: 30px;
+    position: absolute;
+    background-color: transparent;
+  }
+  .men-long-sleeve-premium-number {
+    top: 0px;
+    left: 625px;
+    width: 180px;
+    height: 30px;
+    position: absolute;
+    background-color: transparent;
+  }
+  .men-long-sleeve-premium-number1 {
+    top: 230px;
+    left: 0px;
+    width: 300px;
+    height: 30px;
+    position: absolute;
+    border-width: 0px;
+    background-color: transparent;
+  }
+  .men-long-sleeve-premium-email2 {
+    top: 100px;
+    left: 75px;
+    width: 355px;
+    height: 30px;
+    position: absolute;
+    background-color: transparent;
+  }
+  .men-long-sleeve-premium-email3 {
+    top: 50px;
+    left: 105px;
+    width: 700px;
+    height: 30px;
+    position: absolute;
+    background-color: transparent;
+  }
+  .men-long-sleeve-premium-quantity {
+    top: 150px;
+    left: 105px;
+    width: 325px;
+    height: 30px;
+    position: absolute;
+    background-color: transparent;
+  }
+  .men-long-sleeve-premium-navlink1 {
+    left: 0px;
+    color: var(--dl-color-gray-black);
+    right: 0px;
+    width: 120px;
+    bottom: 20px;
+    height: 43px;
+    margin: auto;
+    position: absolute;
+    align-items: center;
+    font-family: Poppins;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+    justify-content: center;
+    background-color: transparent;
+  }
+  .men-long-sleeve-premium-text4 {
+    align-self: center;
+  }
+}
+@media(max-width: 1200px) {
+  .men-long-sleeve-premium-header {
+    width: 100%;
+    align-self: flex-start;
+    margin-right: 0px;
+    background-color: #F3E5AB;
+  }
+  .men-long-sleeve-premium-home {
+    font-family: Poppins;
+  }
+  .men-long-sleeve-premium-contact-us {
+    font-family: Poppins;
+  }
+  .men-long-sleeve-premium-shop {
+    font-family: Poppins;
+  }
+  .men-long-sleeve-premium-about-us {
+    font-family: Poppins;
+  }
+  .men-long-sleeve-premium-register {
+    color: var(--dl-color-gray-white);
+    background-color: var(--dl-color-gray-black);
+  }
+}
+@media(max-width: 767px) {
+  .men-long-sleeve-premium-header {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .men-long-sleeve-premium-nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .men-long-sleeve-premium-home {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .men-long-sleeve-premium-contact-us {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .men-long-sleeve-premium-shop {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .men-long-sleeve-premium-about-us {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .men-long-sleeve-premium-btn-group {
+    display: none;
+  }
+  .men-long-sleeve-premium-burger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media(max-width: 479px) {
+  .men-long-sleeve-premium-header {
+    padding: var(--dl-space-space-unit);
+  }
+  .men-long-sleeve-premium-mobile-menu {
+    padding: 16px;
+  }
+}

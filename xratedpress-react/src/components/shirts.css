@@ -1,0 +1,415 @@
+.shirts-container {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.shirts-kids {
+  width: 200px;
+  object-fit: cover;
+}
+.shirts-man {
+  width: 200px;
+  object-fit: cover;
+}
+.shirts-ladies {
+  width: 200px;
+  object-fit: cover;
+}
+.shirts-kids1 {
+  width: 200px;
+  object-fit: cover;
+}
+.shirts-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.shirts-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.shirts-navlink {
+  display: flex;
+  transition: 0.3s;
+  flex-direction: row;
+  text-decoration: none;
+}
+
+.shirts-icon {
+  width: 24px;
+  height: 24px;
+}
+.shirts-container3 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.shirts-container4 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.shirts-navlink1 {
+  display: flex;
+  transition: 0.3s;
+  flex-direction: row;
+  text-decoration: none;
+}
+
+.shirts-icon04 {
+  width: 24px;
+  height: 24px;
+}
+.shirts-container5 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.shirts-container6 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.shirts-navlink2 {
+  display: flex;
+  transition: 0.3s;
+  flex-direction: row;
+  text-decoration: none;
+}
+
+.shirts-icon08 {
+  width: 24px;
+  height: 24px;
+}
+.shirts-container7 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.shirts-container8 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.shirts-navlink3 {
+  display: flex;
+  transition: 0.3s;
+  flex-direction: row;
+  text-decoration: none;
+}
+
+.shirts-icon12 {
+  width: 24px;
+  height: 24px;
+}
+
+
+@media(max-width: 1600px) {
+  .shirts-container {
+    width: 1127px;
+    height: 409px;
+    align-items: center;
+    justify-content: center;
+  }
+  .shirts-kids {
+    top: 0px;
+    left: 0px;
+    width: 250px;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    align-self: center;
+    border-color: var(--dl-color-gray-black);
+    border-width: 2px;
+  }
+  .shirts-man {
+    top: 0px;
+    left: 587px;
+    width: 250px;
+    position: absolute;
+    align-self: center;
+    border-color: var(--dl-color-gray-black);
+    border-width: 2px;
+  }
+  .shirts-ladies {
+    top: 0px;
+    left: 871px;
+    width: 250px;
+    position: absolute;
+    align-self: center;
+    border-color: var(--dl-color-gray-black);
+    border-width: 2px;
+  }
+  .shirts-kids1 {
+    top: 0px;
+    left: 295px;
+    width: 250px;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    align-self: center;
+    border-color: var(--dl-color-gray-black);
+    border-width: 2px;
+  }
+  .shirts-premium-cotton-adult {
+    top: 260px;
+    left: 3px;
+    width: 250px;
+    height: 40px;
+    position: absolute;
+    text-align: center;
+    font-family: Poppins;
+  }
+  .shirts-premium-cotton-ladies {
+    top: 260px;
+    left: 290px;
+    width: 250px;
+    position: absolute;
+    text-align: center;
+  }
+  .shirts-premium-cotton-kids {
+    top: 260px;
+    left: 586px;
+    width: 250px;
+    position: absolute;
+    text-align: center;
+  }
+  .shirts-premium-cotton-kids1 {
+    top: 260px;
+    left: 872px;
+    width: 250px;
+    height: 40px;
+    position: absolute;
+    text-align: center;
+  }
+  .shirts-price {
+    top: 305px;
+    left: 100px;
+    position: absolute;
+    font-family: Poppins;
+  }
+  .shirts-price1 {
+    top: 310px;
+    left: 386px;
+    position: absolute;
+    font-family: Poppins;
+  }
+  .shirts-price2 {
+    top: 310px;
+    left: 683px;
+    position: absolute;
+    font-family: Poppins;
+  }
+  .shirts-price3 {
+    top: 310px;
+    left: 961px;
+    position: absolute;
+    font-family: Poppins;
+  }
+  .shirts-container1 {
+    top: 320px;
+    left: 5px;
+    width: 244px;
+    height: 69px;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .shirts-container2 {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 102px;
+    bottom: 0px;
+    height: 50px;
+    margin: auto;
+    position: absolute;
+    align-self: center;
+    justify-content: flex-start;
+  }
+  .shirts-navlink {
+    width: 100px;
+    height: 40px;
+    position: relative;
+    font-size: 10px;
+    align-items: center;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    justify-content: flex-end;
+    background-color: var(--dl-color-danger-700);
+  }
+  .shirts-text {
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 0rem;
+    padding-bottom: 0.5rem;
+  }
+  .shirts-icon {
+    left: 11px;
+    bottom: 8px;
+    position: absolute;
+  }
+  .shirts-container3 {
+    top: 320px;
+    left: 292px;
+    width: 244px;
+    height: 69px;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .shirts-container4 {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 102px;
+    bottom: 0px;
+    height: 50px;
+    margin: auto;
+    position: absolute;
+  }
+  .shirts-navlink1 {
+    width: 100px;
+    height: 40px;
+    position: relative;
+    font-size: 10px;
+    align-items: center;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    justify-content: flex-end;
+    background-color: var(--dl-color-danger-700);
+  }
+  .shirts-text1 {
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 0rem;
+    padding-bottom: 0.5rem;
+  }
+  .shirts-icon04 {
+    left: 11px;
+    bottom: 8px;
+    position: absolute;
+  }
+  .shirts-container5 {
+    top: 320px;
+    left: 589px;
+    width: 244px;
+    height: 69px;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .shirts-container6 {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 102px;
+    bottom: 0px;
+    height: 50px;
+    margin: auto;
+    position: absolute;
+  }
+  .shirts-navlink2 {
+    width: 100px;
+    height: 40px;
+    position: relative;
+    font-size: 10px;
+    align-items: center;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    justify-content: flex-end;
+    background-color: var(--dl-color-danger-700);
+  }
+  .shirts-text2 {
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 0rem;
+    padding-bottom: 0.5rem;
+  }
+  .shirts-icon08 {
+    left: 11px;
+    bottom: 8px;
+    position: absolute;
+  }
+  .shirts-container7 {
+    top: 320px;
+    left: 871px;
+    width: 244px;
+    height: 69px;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .shirts-container8 {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 102px;
+    bottom: 0px;
+    height: 50px;
+    margin: auto;
+    position: absolute;
+  }
+  .shirts-navlink3 {
+    width: 100px;
+    height: 40px;
+    position: relative;
+    font-size: 10px;
+    align-items: center;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    justify-content: flex-end;
+    background-color: var(--dl-color-danger-700);
+  }
+  .shirts-text3 {
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 0rem;
+    padding-bottom: 0.5rem;
+  }
+  .shirts-icon12 {
+    left: 11px;
+    bottom: 8px;
+    position: absolute;
+  }
+  .shirts-root-class-name {
+    top: 210px;
+    left: 70px;
+    position: absolute;
+  }
+  .shirts-root-class-name1 {
+    top: 165px;
+    left: 229px;
+    position: static;
+  }
+}
+@media(max-width: 1200px) {
+  .shirts-container {
+    height: 403px;
+  }
+}

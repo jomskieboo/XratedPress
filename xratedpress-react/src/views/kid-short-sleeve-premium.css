@@ -1,0 +1,465 @@
+.kid-short-sleeve-premium-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.kid-short-sleeve-premium-container1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.kid-short-sleeve-premium-image {
+  width: 200px;
+  object-fit: cover;
+}
+.kid-short-sleeve-premium-form {
+  width: 200px;
+  height: 100px;
+  display: flex;
+}
+.kid-short-sleeve-premium-navlink {
+  display: flex;
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.kid-short-sleeve-premium-navlink:hover {
+  color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-gray-black);
+}
+.kid-short-sleeve-premium-header {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.kid-short-sleeve-premium-image1 {
+  width: 200px;
+  object-fit: cover;
+}
+.kid-short-sleeve-premium-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.kid-short-sleeve-premium-home {
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+
+.kid-short-sleeve-premium-contact-us {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.kid-short-sleeve-premium-shop {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.kid-short-sleeve-premium-about-us {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.kid-short-sleeve-premium-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.kid-short-sleeve-premium-btn-group {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.kid-short-sleeve-premium-burger-menu {
+  display: none;
+}
+.kid-short-sleeve-premium-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.kid-short-sleeve-premium-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.kid-short-sleeve-premium-nav1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.kid-short-sleeve-premium-container3 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.kid-short-sleeve-premium-image2 {
+  height: 2rem;
+}
+.kid-short-sleeve-premium-menu-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.kid-short-sleeve-premium-icon02 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.kid-short-sleeve-premium-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.kid-short-sleeve-premium-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.kid-short-sleeve-premium-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.kid-short-sleeve-premium-register {
+  transition: 0.3s;
+  text-decoration: none;
+}
+.kid-short-sleeve-premium-register:hover {
+  color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-gray-black);
+}
+.kid-short-sleeve-premium-navlink1 {
+  display: flex;
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.kid-short-sleeve-premium-navlink1:hover {
+  color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-gray-black);
+}
+.kid-short-sleeve-premium-text5:hover {
+  color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-gray-black);
+}
+@media(max-width: 1600px) {
+  .kid-short-sleeve-premium-container {
+    background-color: #FFFDD0;
+  }
+  .kid-short-sleeve-premium-container1 {
+    top: 210px;
+    left: 25px;
+    width: 1250px;
+    height: 409px;
+    position: absolute;
+    padding-left: 0px;
+  }
+  .kid-short-sleeve-premium-li {
+    top: 0px;
+    left: 0px;
+    width: 431px;
+    bottom: 0px;
+    height: 382px;
+    margin: auto;
+    position: absolute;
+    margin-bottom: 0px;
+    list-style-type: none;
+    list-style-image: none;
+    list-style-position: outside;
+  }
+  .kid-short-sleeve-premium-image {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 322px;
+    height: 317px;
+    margin: auto;
+    position: absolute;
+    border-color: var(--dl-color-gray-black);
+    border-width: 2px;
+  }
+  .kid-short-sleeve-premium-premium-cotton-adult {
+    left: 0px;
+    right: 0px;
+    width: 250px;
+    bottom: 10px;
+    height: 40px;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    font-family: Poppins;
+  }
+  .kid-short-sleeve-premium-form {
+    top: 0px;
+    right: 0px;
+    width: 848px;
+    bottom: 0px;
+    height: 340px;
+    margin: auto;
+    position: absolute;
+    align-self: flex-start;
+  }
+  .kid-short-sleeve-premium-name {
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    font-size: 20px;
+  }
+  .kid-short-sleeve-premium-email {
+    top: 100px;
+    left: 0px;
+    position: absolute;
+    font-size: 20px;
+  }
+  .kid-short-sleeve-premium-email1 {
+    top: 50px;
+    left: 0px;
+    position: absolute;
+    font-size: 20px;
+  }
+  .kid-short-sleeve-premium-contact-number {
+    left: 450px;
+    position: absolute;
+    font-size: 20px;
+  }
+  .kid-short-sleeve-premium-message {
+    top: 150px;
+    left: 0px;
+    position: absolute;
+    font-size: 20px;
+  }
+  .kid-short-sleeve-premium-message1 {
+    top: 200px;
+    left: 0px;
+    position: absolute;
+    font-size: 20px;
+  }
+  .kid-short-sleeve-premium-name1 {
+    top: 0px;
+    left: 80px;
+    width: 350px;
+    height: 30px;
+    position: absolute;
+    background-color: transparent;
+  }
+  .kid-short-sleeve-premium-number {
+    top: 0px;
+    left: 625px;
+    width: 180px;
+    height: 30px;
+    position: absolute;
+    background-color: transparent;
+  }
+  .kid-short-sleeve-premium-number1 {
+    top: 230px;
+    left: 0px;
+    width: 300px;
+    height: 30px;
+    position: absolute;
+    border-width: 0px;
+    background-color: transparent;
+  }
+  .kid-short-sleeve-premium-email2 {
+    top: 100px;
+    left: 75px;
+    width: 355px;
+    height: 30px;
+    position: absolute;
+    background-color: transparent;
+  }
+  .kid-short-sleeve-premium-email3 {
+    top: 50px;
+    left: 105px;
+    width: 700px;
+    height: 30px;
+    position: absolute;
+    background-color: transparent;
+  }
+  .kid-short-sleeve-premium-quantity {
+    top: 150px;
+    left: 105px;
+    width: 325px;
+    height: 30px;
+    position: absolute;
+    background-color: transparent;
+  }
+  .kid-short-sleeve-premium-navlink {
+    left: 0px;
+    color: var(--dl-color-gray-black);
+    right: 0px;
+    width: 120px;
+    bottom: 20px;
+    height: 43px;
+    margin: auto;
+    position: absolute;
+    align-items: center;
+    font-family: Poppins;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+    justify-content: center;
+    background-color: transparent;
+  }
+  .kid-short-sleeve-premium-text {
+    align-self: center;
+  }
+  .kid-short-sleeve-premium-header {
+    width: 100%;
+    position: relative;
+    background-color: #F3E5AB;
+  }
+  .kid-short-sleeve-premium-image1 {
+    width: 109px;
+    height: 110px;
+    border-radius: var(--dl-radius-radius-radius4);
+    border-top-left-radius: var(--dl-radius-radius-round);
+    border-top-right-radius: var(--dl-radius-radius-round);
+    border-bottom-left-radius: var(--dl-radius-radius-round);
+    border-bottom-right-radius: var(--dl-radius-radius-round);
+  }
+  .kid-short-sleeve-premium-home {
+    font-family: Poppins;
+  }
+  .kid-short-sleeve-premium-contact-us {
+    font-family: Poppins;
+  }
+  .kid-short-sleeve-premium-shop {
+    font-family: Poppins;
+  }
+  .kid-short-sleeve-premium-about-us {
+    font-family: Poppins;
+  }
+  .kid-short-sleeve-premium-text3 {
+    top: 73px;
+    right: 170px;
+    position: absolute;
+    font-size: 24px;
+  }
+  .kid-short-sleeve-premium-register {
+    color: var(--dl-color-gray-black);
+    font-family: Poppins;
+    text-decoration: none;
+    background-color: transparent;
+  }
+  .kid-short-sleeve-premium-navlink1 {
+    top: 190px;
+    left: 50px;
+    color: var(--dl-color-gray-black);
+    width: 94px;
+    height: 36px;
+    position: absolute;
+    align-items: center;
+    font-family: Poppins;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+    justify-content: center;
+    background-color: transparent;
+  }
+  .kid-short-sleeve-premium-text4 {
+    align-self: center;
+    text-align: center;
+  }
+  .kid-short-sleeve-premium-text6 {
+    text-decoration: underline;
+  }
+}
+@media(max-width: 1200px) {
+  .kid-short-sleeve-premium-header {
+    width: 100%;
+    align-self: flex-start;
+    margin-right: 0px;
+    background-color: #F3E5AB;
+  }
+  .kid-short-sleeve-premium-home {
+    font-family: Poppins;
+  }
+  .kid-short-sleeve-premium-contact-us {
+    font-family: Poppins;
+  }
+  .kid-short-sleeve-premium-shop {
+    font-family: Poppins;
+  }
+  .kid-short-sleeve-premium-about-us {
+    font-family: Poppins;
+  }
+  .kid-short-sleeve-premium-register {
+    color: var(--dl-color-gray-white);
+    background-color: var(--dl-color-gray-black);
+  }
+}
+@media(max-width: 767px) {
+  .kid-short-sleeve-premium-header {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .kid-short-sleeve-premium-nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .kid-short-sleeve-premium-home {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .kid-short-sleeve-premium-contact-us {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .kid-short-sleeve-premium-shop {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .kid-short-sleeve-premium-about-us {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .kid-short-sleeve-premium-btn-group {
+    display: none;
+  }
+  .kid-short-sleeve-premium-burger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media(max-width: 479px) {
+  .kid-short-sleeve-premium-header {
+    padding: var(--dl-space-space-unit);
+  }
+  .kid-short-sleeve-premium-mobile-menu {
+    padding: 16px;
+  }
+}

@@ -1,0 +1,352 @@
+.sign-up-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #FFFDD0;
+}
+.sign-up-xrated-press {
+  top: 239px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  position: absolute;
+  font-size: 100px;
+  text-align: center;
+  font-family: Poppins;
+}
+.sign-up-text {
+  top: 730px;
+  left: 500px;
+  position: absolute;
+}
+.sign-up-form {
+  width: 200px;
+  height: 100px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.sign-up-first-name {
+  top: 392px;
+  left: 348px;
+  position: absolute;
+  font-size: 50px;
+  font-family: Poppins;
+}
+.sign-up-email {
+  top: 392px;
+  left: 348px;
+  position: absolute;
+  font-size: 50px;
+  font-family: Poppins;
+}
+.sign-up-password {
+  top: 470px;
+  left: 243px;
+  position: absolute;
+  font-size: 50px;
+  font-family: Poppins;
+}
+.sign-up-last-name {
+  top: 392px;
+  left: 348px;
+  position: absolute;
+  font-size: 50px;
+  font-family: Poppins;
+}
+.sign-up-last-name1 {
+  top: 394px;
+  left: 515px;
+  width: 431px;
+  height: 47px;
+  position: absolute;
+  background-color: var(--dl-color-gray-black);
+}
+.sign-up-password1 {
+  top: 473px;
+  left: 515px;
+  width: 431px;
+  height: 47px;
+  position: absolute;
+  background-color: var(--dl-color-gray-black);
+}
+.sign-up-first-name1 {
+  top: 394px;
+  left: 515px;
+  width: 431px;
+  height: 47px;
+  position: absolute;
+  background-color: var(--dl-color-gray-black);
+}
+.sign-up-email1 {
+  top: 394px;
+  left: 515px;
+  width: 431px;
+  height: 47px;
+  position: absolute;
+  background-color: var(--dl-color-gray-black);
+}
+.sign-up-navlink {
+  display: flex;
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.sign-up-navlink:hover {
+  color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-gray-black);
+}
+.sign-up-text02:hover {
+  color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-gray-black);
+}
+.sign-up-navlink1 {
+  display: flex;
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.sign-up-navlink1:hover {
+  color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-gray-black);
+}
+.sign-up-text05:hover {
+  color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-gray-black);
+}
+.sign-up-navlink2 {
+  display: flex;
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.sign-up-navlink2:hover {
+  color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-gray-black);
+}
+.sign-up-text08:hover {
+  color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-gray-black);
+}
+@media(max-width: 1600px) {
+  .sign-up-container {
+    flex-direction: row;
+  }
+  .sign-up-xrated-press {
+    top: 85px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 10px;
+  }
+  .sign-up-text {
+    top: 478px;
+    left: 559px;
+    position: absolute;
+  }
+  .sign-up-form {
+    top: 80px;
+    left: 209px;
+    width: 847px;
+    height: 347px;
+    position: absolute;
+    align-self: center;
+  }
+  .sign-up-first-name {
+    top: 100px;
+    left: 158px;
+    font-size: 25px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .sign-up-email {
+    top: 179px;
+    left: 222px;
+    font-size: 25px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .sign-up-password {
+    top: 216px;
+    left: 170px;
+    font-size: 25px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .sign-up-last-name {
+    top: 139px;
+    left: 158px;
+    font-size: 25px;
+    font-family: Poppins;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .sign-up-last-name1 {
+    top: 134px;
+    left: 310px;
+    color: var(--dl-color-gray-white);
+    height: 30px;
+    position: absolute;
+  }
+  .sign-up-password1 {
+    top: 213px;
+    left: 310px;
+    color: var(--dl-color-gray-white);
+    height: 30px;
+    position: absolute;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+  }
+  .sign-up-first-name1 {
+    top: 95px;
+    left: 310px;
+    color: var(--dl-color-gray-white);
+    height: 30px;
+    position: absolute;
+  }
+  .sign-up-email1 {
+    top: 175px;
+    left: 310px;
+    color: var(--dl-color-gray-white);
+    height: 30px;
+    position: absolute;
+  }
+  .sign-up-navlink {
+    color: var(--dl-color-gray-black);
+    right: 107px;
+    width: 87px;
+    bottom: 43px;
+    height: 43px;
+    position: absolute;
+    align-items: center;
+    font-family: Poppins;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+    justify-content: center;
+    background-color: transparent;
+  }
+  .sign-up-text01 {
+    align-self: center;
+  }
+  .sign-up-text03 {
+    text-decoration: underline;
+  }
+  .sign-up-navlink1 {
+    top: 464px;
+    left: 760px;
+    color: var(--dl-color-gray-black);
+    width: 105px;
+    height: 43px;
+    position: absolute;
+    align-items: center;
+    font-family: Poppins;
+    border-width: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    justify-content: center;
+    background-color: transparent;
+  }
+  .sign-up-text04 {
+    text-decoration: underline;
+  }
+  .sign-up-navlink2 {
+    top: 41px;
+    left: 165px;
+    color: var(--dl-color-gray-black);
+    width: 94px;
+    height: 36px;
+    position: absolute;
+    align-items: center;
+    font-family: Poppins;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+    justify-content: center;
+    background-color: transparent;
+  }
+  .sign-up-text07 {
+    align-self: center;
+    text-align: center;
+  }
+  .sign-up-text09 {
+    text-decoration: underline;
+  }
+}
+@media(max-width: 1200px) {
+  .sign-up-xrated-press {
+    top: 124px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    font-size: 50px;
+  }
+  .sign-up-text {
+    top: 590px;
+    left: 478px;
+    position: absolute;
+  }
+  .sign-up-first-name {
+    top: 207px;
+    left: 262px;
+    font-size: 25px;
+    font-family: Poppins;
+  }
+  .sign-up-email {
+    top: 341px;
+    left: 325px;
+    font-size: 25px;
+  }
+  .sign-up-password {
+    top: 425px;
+    left: 286px;
+    font-size: 25px;
+  }
+  .sign-up-last-name {
+    top: 282px;
+    left: 262px;
+    font-size: 25px;
+    font-family: Poppins;
+  }
+  .sign-up-last-name1 {
+    top: 276px;
+    left: 442px;
+    color: var(--dl-color-gray-white);
+  }
+  .sign-up-password1 {
+    top: 419px;
+    left: 441px;
+    color: var(--dl-color-gray-white);
+  }
+  .sign-up-first-name1 {
+    top: 204px;
+    left: 440px;
+    color: var(--dl-color-gray-white);
+  }
+  .sign-up-email1 {
+    top: 340px;
+    left: 441px;
+    color: var(--dl-color-gray-white);
+  }
+}
